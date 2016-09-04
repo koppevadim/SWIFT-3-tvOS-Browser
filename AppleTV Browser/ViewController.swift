@@ -12,13 +12,14 @@ import GameController
 
 class ViewController: UIViewController {
     
-    var cursorView: UIView!
-    var temporaryURL: String!
+    private var cursorMode = false
     
-    var webView: UIWebView!
-    var cursorMode = false
-    var link: CADisplayLink!
-    var controller: GCController!
+    private var cursorView: UIView!
+    private var temporaryURL: String!
+    
+    private var webView: UIWebView!
+    private var link: CADisplayLink!
+    private var controller: GCController!
     
     private var input: Input!
     
