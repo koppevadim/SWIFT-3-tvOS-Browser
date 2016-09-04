@@ -6,6 +6,7 @@ You'll need to redefine the following in Availability.h to build successfully.
 
 __TVOS_UNAVAILABLE
 __TVOS_PROHIBITED
+
 How to Use
 
 Tap the top of the touch area on the Apple TV Remote to switch between cursor & scroll mode.
