@@ -5,6 +5,7 @@ Very simplistic browser for tvOS using private API (aka UIWebView). This is abou
 You'll need to redefine the following in Availability.h to build successfully.
 
 __TVOS_UNAVAILABLE
+
 __TVOS_PROHIBITED
 
 How to Use
