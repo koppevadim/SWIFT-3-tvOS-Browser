@@ -12,6 +12,13 @@ import GameController
 
 class ViewController: UIViewController {
     
+    private struct Input {
+        var x: CGFloat
+        var y: CGFloat
+    }
+    
+    private var input: Input!
+    
     private var cursorMode = false
     
     private var cursorView: UIView!
@@ -20,13 +27,7 @@ class ViewController: UIViewController {
     private var webView: UIWebView!
     private var link: CADisplayLink!
     private var controller: GCController!
-    
-    private var input: Input!
-    
-    private struct Input {
-        var x: CGFloat
-        var y: CGFloat
-    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
